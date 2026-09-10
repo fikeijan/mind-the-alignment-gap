@@ -1,0 +1,126 @@
+{
+  "taxonomy": {
+    "Behavioral and Social Developmental Risks": [
+      {
+        "id": "CAT_BEH_01",
+        "name": "Emotional Manipulation & Social Isolation"
+      },
+      {
+        "id": "CAT_BEH_02",
+        "name": "Anthropomorphism & False Trust"
+      },
+      {
+        "id": "CAT_BEH_03",
+        "name": "Promotion of Risky Behaviors"
+      }
+    ],
+    "Cognitive and Educational Impact": [
+      {
+        "id": "CAT_COG_01",
+        "name": "Cognitive Overload"
+      },
+      {
+        "id": "CAT_COG_02",
+        "name": "Over-reliance & Cognitive Atrophy"
+      },
+      {
+        "id": "CAT_COG_03",
+        "name": "Misinformation & Hallucinations"
+      }
+    ],
+    "Toxicity, Cyberbullying and Inappropriate Content": [
+      {
+        "id": "CAT_TOX_01",
+        "name": "Exposure to Age-Inappropriate and General Harmful Content"
+      },
+      {
+        "id": "CAT_TOX_02",
+        "name": "Cyberbullying and Harassment"
+      },
+      {
+        "id": "CAT_TOX_03",
+        "name": "Toxic, Abusive and Offensive Language"
+      },
+      {
+        "id": "CAT_TOX_04",
+        "name": "Illegal Acts and Drugs"
+      },
+      {
+        "id": "CAT_TOX_05",
+        "name": "Violence, Gore and Weapons"
+      },
+      {
+        "id": "CAT_TOX_06",
+        "name": "Sexual Content and Boundary Violations"
+      },
+      {
+        "id": "CAT_TOX_07",
+        "name": "Hate Speech and Dehumanization"
+      }
+    ],
+    "Privacy, Identity and Data Exploitation": [
+      {
+        "id": "CAT_PRV_01",
+        "name": "Privacy Violations & Sensitive Data Sharing"
+      },
+      {
+        "id": "CAT_PRV_02",
+        "name": "Identity Abuse & Impersonation"
+      }
+    ],
+    "Bias, Stereotyping and Discrimination": [
+      {
+        "id": "CAT_BIA_01",
+        "name": "Bias Reinforcement"
+      },
+      {
+        "id": "CAT_BIA_02",
+        "name": "Stereotyping and Discrimination"
+      }
+    ],
+    "Mental Wellbeing and Safety": [
+      {
+        "id": "CAT_MEN_01",
+        "name": "Self-Harm and Psychological Distortion"
+      },
+      {
+        "id": "CAT_MEN_02",
+        "name": "Grooming & Predatory Behaviour"
+      },
+      {
+        "id": "CAT_MEN_03",
+        "name": "Inadequate Crisis Detection and Response"
+      },
+      {
+        "id": "CAT_MEN_04",
+        "name": "Unhealthy Emotional Attachment and Addiction"
+      },
+      {
+        "id": "CAT_MEN_05",
+        "name": "AI as Unregulated \"Free Therapy\" and Support Overreliance"
+      }
+    ],
+    "Misuse and Exploitation Risk": [
+      {
+        "id": "CAT_MIS_01",
+        "name": "Academic Dishonesty and Automated Plagiarism"
+      },
+      {
+        "id": "CAT_MIS_02",
+        "name": "Social Engineering and Manipulation"
+      },
+      {
+        "id": "CAT_MIS_03",
+        "name": "Circumvention of Safeguards (Jailbreaking)"
+      },
+      {
+        "id": "CAT_MIS_04",
+        "name": "Content Generation for Harassment"
+      },
+      {
+        "id": "CAT_MIS_05",
+        "name": "Financial Exploitation"
+      }
+    ]
+  }
+}
