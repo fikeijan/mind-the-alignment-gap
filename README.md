@@ -9,12 +9,12 @@ Artefacts for the paper **"Mind the Alignment Gap: Why General-Purpose Moderatio
 | Artefact | Location | Access |
 |---|---|---|
 | Child-centric risk taxonomy (7 domains → 27 categories, age-conditioned generation seeds, hard-negative definitions) | [`taxonomy/`](taxonomy/) | Public, CC BY 4.0 |
-| Alignment dataset (~79k single-message and multi-turn child–AI interactions) | [HF dataset](https://huggingface.co/datasets/ORG/child-safety-alignment-dataset) | **Gated** — research-use agreement, manual approval |
-| Fine-tuned safeguard: Llama Guard 3 8B (LoRA) | [HF model](https://huggingface.co/ORG/Llama-Guard-3-8B-ChildSafety-LoRA) | Public, classifier only |
-| Fine-tuned safeguard: Llama Guard 3 1B (LoRA) | [HF model](https://huggingface.co/ORG/Llama-Guard-3-1B-ChildSafety-LoRA) | Public, classifier only |
-| Fine-tuned safeguard: Aegis-Defensive 7B (LoRA) | [HF model](https://huggingface.co/ORG/Llama-Aegis-Defensive-7B-ChildSafety-LoRA) | Public, classifier only |
+| Alignment dataset (~79k single-message and multi-turn child–AI interactions) | [HF dataset](https://huggingface.co/datasets/fikeisjan/child-safety-alignment-dataset) | **Gated** — research-use agreement, manual approval |
+| Fine-tuned safeguard: Llama Guard 3 8B (LoRA) | [HF model](https://huggingface.co/fikeisjan/Llama-Guard-3-8B-ChildSafety-LoRA) | Public, classifier only |
+| Fine-tuned safeguard: Llama Guard 3 1B (LoRA) | [HF model](https://huggingface.co/fikeisjan/Llama-Guard-3-1B-ChildSafety-LoRA) | Public, classifier only |
+| Fine-tuned safeguard: Aegis-Defensive 7B (LoRA) | [HF model](https://huggingface.co/fikeisjan/Llama-Aegis-Defensive-7B-ChildSafety-LoRA) | Public, classifier only |
 
-All artefacts are also collected in one place: [HF collection](https://huggingface.co/collections/ORG/child-safety-alignment).
+All artefacts are also collected in one place: [HF collection](https://huggingface.co/collections/fikeisjan/child-safety-alignment).
 
 ## Taxonomy
 
