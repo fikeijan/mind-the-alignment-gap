@@ -43,7 +43,7 @@ A real-time moderation deployment inside a non-profit educational chatbot for pr
 ## Citation
 
 ```bibtex
-
+WILL BE UPDATED AFTER RELEASE
 ```
 
 ## Acknowledgements
