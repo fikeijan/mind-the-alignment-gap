@@ -90,5 +90,25 @@ The safe class combines everyday benign interactions (education, hobbies, curios
 Taxonomy released under CC BY 4.0. If you use it, please cite:
 
 ```bibtex
-WILL BE UPDATED AFTER RELEASE
+@inproceedings{fikeis-kordik-2026-mind,
+    title = "Mind the Alignment Gap: Why General-Purpose Moderation Fails Children, and How a Child-Centric Taxonomy and Synthetic Data Close It",
+    author = "Fikeis, Jan  and
+      Kord{\'i}k, Pavel",
+    editor = "Calabrese, Agostina  and
+      Davidson, Thomas  and
+      de Kock, Christine  and
+      Khurana, Urja  and
+      Marchiori Manerba, Marta  and
+      Piot, Paloma  and
+      Talat, Zeerak",
+    booktitle = "Proceedings of the 10th Workshop on Online Abuse and Harms ({WOAH})",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.woah-1.19/",
+    doi = "10.18653/2026.woah-1.19",
+    pages = "219--227",
+    ISBN = "979-8-89176-487-3"
+}
 ```

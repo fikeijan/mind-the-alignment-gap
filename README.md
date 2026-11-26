@@ -1,6 +1,6 @@
 # Mind the Alignment Gap
 
-Artefacts for the paper **"Mind the Alignment Gap: Why General-Purpose Moderation Fails Children, and How a Child-Centric Taxonomy and Synthetic Data Close It"** (Jan Fikeis, Pavel Kordík — WOAH 2026, EMNLP, Budapest). Paper: [ACL Anthology](https://aclanthology.org/2026.woah-1.19/) · DOI [10.18653/2026.woah-1.19](https://doi.org/10.18653/2026.woah-1.19).
+Artefacts for the paper **"Mind the Alignment Gap: Why General-Purpose Moderation Fails Children, and How a Child-Centric Taxonomy and Synthetic Data Close It"** (Jan Fikeis, Pavel Kordík — WOAH 2026, EMNLP, Budapest). Paper: [ACL Anthology](https://aclanthology.org/2026.woah-1.19/) · DOI [10.18653/2026.woah-1.19](https://doi.org/10.18653/2026.woah-1.19) · [PDF](paper/2026.woah-1.19.pdf) (copy of the official proceedings version; the ACL Anthology is canonical).
 
 > **Content warning.** This repository links to synthetic data containing harmful and manipulative language directed at minors (grooming dynamics, emotional manipulation, encouragement of risky behaviour). It is released solely to train and evaluate *protective* classifiers.
 
@@ -8,7 +8,7 @@ Artefacts for the paper **"Mind the Alignment Gap: Why General-Purpose Moderatio
 
 | Artefact | Location | Access |
 |---|---|---|
-| Child-centric risk taxonomy (7 domains → 27 categories, age-conditioned generation seeds, hard-negative definitions) | [`taxonomy/`](taxonomy/) | Public, CC BY 4.0 |
+| Child-centric risk taxonomy (7 domains → 27 risk categories) | [`taxonomy/`](taxonomy/) | Public, CC BY 4.0 |
 | Alignment dataset (~79k single-message and multi-turn child–AI interactions) | [HF dataset](https://huggingface.co/datasets/fikeisjan/child-safety-alignment-dataset) | **Gated** — research-use agreement, manual approval |
 | Fine-tuned safeguard: Llama Guard 3 8B (LoRA) | [HF model](https://huggingface.co/fikeisjan/Llama-Guard-3-8B-ChildSafety-LoRA) | Public, classifier only |
 | Fine-tuned safeguard: Llama Guard 3 1B (LoRA) | [HF model](https://huggingface.co/fikeisjan/Llama-Guard-3-1B-ChildSafety-LoRA) | Public, classifier only |
@@ -30,15 +30,17 @@ The released models are safety **classifiers**. They must not be used as generat
 
 ## Licences
 
-- Taxonomy and documentation: CC BY 4.0
-- Code: Apache 2.0
+The [`LICENSE`](LICENSE) file (CC BY 4.0) covers the taxonomy and documentation in this repository; the paper, dataset and models have their own terms:
+
+- Taxonomy and documentation: CC BY 4.0 (full text in [`LICENSE`](LICENSE))
+- Paper PDF ([`paper/`](paper/)): © 2026 Association for Computational Linguistics, CC BY 4.0
 - Dataset: research use only, gated (see agreement)
 - LoRA adapters for Llama Guard 3 1B/8B: governed by the **Llama 3.1 Community License** (built with Llama)
 - LoRA adapter for Aegis-Defensive 7B: governed by the **Llama 2 Community License** (Aegis is a parameter-efficient instruction-tuned Llama Guard built on Llama2-7B)
 
 ## Deployment
 
-A real-time moderation deployment inside a non-profit educational chatbot for primary-school children operated by [AI detem, z.s.](https://aidetem.cz), and a free public child-safety moderation API, are planned (see §8 of the paper). No real user data was used in the paper.
+A real-time moderation deployment inside a non-profit educational chatbot for primary-school children operated by [AI dětem, z.s.](https://aidetem.cz), and a free public child-safety moderation API, are planned (see §8 of the paper). No real user data was used in the paper.
 
 ## Citation
 
