@@ -12,3 +12,7 @@
 
 # Local Claude settings
 .claude/
+
+# Local staging (model weights, HF uploads)
+models/
+hf/
