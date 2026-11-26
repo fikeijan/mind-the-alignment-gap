@@ -22,7 +22,7 @@ The taxonomy covers 7 domains and 27 risk categories, each instantiated separate
 
 ## Dataset access
 
-The dataset is gated behind a research-use agreement. Request access on the Hugging Face dataset page; requests are reviewed manually and require an institutional affiliation and a short statement of intended use. See [`RESEARCH_USE_AGREEMENT.md`](RESEARCH_USE_AGREEMENT.md) for the full terms.
+The dataset is gated behind a research-use agreement. Request access on the Hugging Face dataset page; requests are reviewed manually. To be approved, apply with a **verifiable academic or institutional e-mail address** matching your stated affiliation and describe the protective purpose concretely; requests from personal e-mail addresses (Gmail, Outlook, …) or with a vague purpose are usually declined. Commercial use requires separate written permission. See [`RESEARCH_USE_AGREEMENT.md`](RESEARCH_USE_AGREEMENT.md) for the full terms.
 
 ## Intended use and restrictions
 
