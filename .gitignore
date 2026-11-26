@@ -1,0 +1,14 @@
+# Windows download metadata
+*:Zone.Identifier
+# LaTeX build artefacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# Local Claude settings
+.claude/

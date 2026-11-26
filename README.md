@@ -1,6 +1,6 @@
 # Mind the Alignment Gap
 
-Artefacts for the paper **"Mind the Alignment Gap: Why General-Purpose Moderation Fails Children, and How a Child-Centric Taxonomy and Synthetic Data Close It"** (Jan Fikeis, Pavel Kordík — WOAH 2026, EMNLP, Budapest).
+Artefacts for the paper **"Mind the Alignment Gap: Why General-Purpose Moderation Fails Children, and How a Child-Centric Taxonomy and Synthetic Data Close It"** (Jan Fikeis, Pavel Kordík — WOAH 2026, EMNLP, Budapest). Paper: [ACL Anthology](https://aclanthology.org/2026.woah-1.19/) · DOI [10.18653/2026.woah-1.19](https://doi.org/10.18653/2026.woah-1.19).
 
 > **Content warning.** This repository links to synthetic data containing harmful and manipulative language directed at minors (grooming dynamics, emotional manipulation, encouragement of risky behaviour). It is released solely to train and evaluate *protective* classifiers.
 
@@ -42,8 +42,30 @@ A real-time moderation deployment inside a non-profit educational chatbot for pr
 
 ## Citation
 
+If you use the taxonomy, dataset or models, please cite:
+
 ```bibtex
-WILL BE UPDATED AFTER RELEASE
+@inproceedings{fikeis-kordik-2026-mind,
+    title = "Mind the Alignment Gap: Why General-Purpose Moderation Fails Children, and How a Child-Centric Taxonomy and Synthetic Data Close It",
+    author = "Fikeis, Jan  and
+      Kord{\'i}k, Pavel",
+    editor = "Calabrese, Agostina  and
+      Davidson, Thomas  and
+      de Kock, Christine  and
+      Khurana, Urja  and
+      Marchiori Manerba, Marta  and
+      Piot, Paloma  and
+      Talat, Zeerak",
+    booktitle = "Proceedings of the 10th Workshop on Online Abuse and Harms ({WOAH})",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.woah-1.19/",
+    doi = "10.18653/2026.woah-1.19",
+    pages = "219--227",
+    ISBN = "979-8-89176-487-3"
+}
 ```
 
 ## Acknowledgements

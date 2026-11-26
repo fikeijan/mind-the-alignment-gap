@@ -1,0 +1,22 @@
+@inproceedings{fikeis-kordik-2026-mind,
+    title = "Mind the Alignment Gap: Why General-Purpose Moderation Fails Children, and How a Child-Centric Taxonomy and Synthetic Data Close It",
+    author = "Fikeis, Jan  and
+      Kord{\'i}k, Pavel",
+    editor = "Calabrese, Agostina  and
+      Davidson, Thomas  and
+      de Kock, Christine  and
+      Khurana, Urja  and
+      Marchiori Manerba, Marta  and
+      Piot, Paloma  and
+      Talat, Zeerak",
+    booktitle = "Proceedings of the 10th Workshop on Online Abuse and Harms ({WOAH})",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.woah-1.19/",
+    doi = "10.18653/2026.woah-1.19",
+    pages = "219--227",
+    ISBN = "979-8-89176-487-3",
+    abstract = "Large language models are entering classrooms and homes, yet the moderation tools that guard these interactions are aligned to adult users. We show that this produces a dangerous alignment gap: on our benchmark, general-purpose safeguards such as the OpenAI Moderation API and base Llama Guard 3 detect as little as 30{--}38{\%} of child-directed harms{---}predatory grooming, emotional manipulation, encouragement of risky behaviour{---}because these harms carry no profanity and violate no adult-calibrated policy. Qualitatively, these tools pass textbook grooming as safe; we conclude that, in their current form, they are not on their own an adequate safeguard for children{'}s conversations with chatbots. To close the gap we (i) define a child-centric risk taxonomy of 27 categories across 7 domains, differentiated by developmental stage (ages 6{--}12 and 13{--}17); (ii) build a synthetic pipeline producing 83,338 single-message and multi-turn child{--}AI interactions, filtered to 79,193 by a reward-model quality mechanism; and (iii) fully fine-tune an encoder (ModernBERT-large) and LoRA-adapt generative safeguards (Llama Guard 3, Aegis-Defensive). Fine-tuned Llama Guard 3 8B reaches 0.996 macro-F1 and 0.994 harmful recall, cutting false negatives to near zero across all 27 categories. We give an honest account of the limits of fully synthetic evaluation{---}strong lexical baselines (BM25, 0.90 macro-F1) reveal distributional artefacts{---}and argue that generative safeguards remain the more robust choice for deployment. We release the taxonomy, dataset, and fine-tuned models, and outline planned validation of the safeguard inside a non-profit educational chatbot already used by tens of thousands of children, plus a free public moderation service for benchmarking child-safety."
+}
